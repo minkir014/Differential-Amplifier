@@ -1,0 +1,16 @@
+#
+# Edit Lock-Stake file. CAUTION: Please do not change.
+#
+# Information about current Edit Lock Owner.
+#
+LockStakeVersion               1.1
+LoginName                      work
+HostName                       work-eda
+ProcessIdentifier              18818
+ProcessCreationTime_UTC        1687111784
+ProcessCreationTime_Readable   Mon Jun 19 02:09:44 2023 CST
+AppIdentifier                  /opt/IC617/tools/dfII/bin/64bit/virtuoso
+OSType                         lnx86
+ReasonForPlacingEditLock       
+FilePathUsedToEditLock         /home/work/Diff_Amp/diff_req/adexl/data.sdb
+TimeEditLocked                 Mon Jun 19 03:20:55 2023 CST

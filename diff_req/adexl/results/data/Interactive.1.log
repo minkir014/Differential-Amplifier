@@ -1,0 +1,18 @@
+Starting Single Run, Sweeps and Corners...
+
+Current time: Sun Jun 18 21:46:45 2023 
+Best design point: 1
+Design specs: 
+	Diff_Amp:diff_req:1	corner	Nominal - 
+Design parameters: 
+	LIN		1u
+	RD		9k
+	WIN		23u
+	LCS		1u
+	WCS		46u
+
+Interactive.1
+Number of points completed: 1
+Number of simulation errors: 0
+Interactive.1 completed. 
+Current time: Sun Jun 18 21:46:46 2023 

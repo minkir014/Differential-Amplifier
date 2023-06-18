@@ -1,0 +1,217 @@
+<?xml version="1.0"?>
+<setupdb version="5">data
+	<active>Active Setup
+		<corners>
+			<corner enabled="1">_default</corner>
+		</corners>
+		<extensions>
+			<extension>Parasitics
+				<callback>_parSetupDBExtensionCB</callback>
+				<iconvalue></iconvalue>
+				<icontype></icontype>
+			</extension>
+		</extensions>
+		<currentmode>Single Run, Sweeps and Corners</currentmode>
+		<overwritehistory>0</overwritehistory>
+		<tests>
+			<test>Diff_Amp:diff_req:1
+				<tool>ADE</tool>
+				<tooloptions>
+					<option>cell
+						<value>diff_req</value>
+					</option>
+					<option>lib
+						<value>Diff_Amp</value>
+					</option>
+					<option>sim
+						<value>spectre</value>
+					</option>
+					<option>view
+						<value>schematic</value>
+					</option>
+					<option>path
+						<value>$AXL_SETUPDB_DIR/test_states</value>
+					</option>
+					<option>state
+						<value>Diff_Amp:diff_req:1_active</value>
+					</option>
+				</tooloptions>
+				<origoptions>
+					<option>cell
+						<value>diff_req</value>
+					</option>
+					<option>lib
+						<value>Diff_Amp</value>
+					</option>
+					<option>sim
+						<value>spectre</value>
+					</option>
+					<option>view
+						<value>schematic</value>
+					</option>
+				</origoptions>
+			</test>
+		</tests>
+		<vars>
+			<var>LIN
+				<value>1u</value>
+				<dependentTests>
+					<dependentTest omitted="0">Diff_Amp:diff_req:1</dependentTest>
+				</dependentTests>
+			</var>
+			<var>RD
+				<value>9k</value>
+				<dependentTests>
+					<dependentTest omitted="0">Diff_Amp:diff_req:1</dependentTest>
+				</dependentTests>
+			</var>
+			<var>WIN
+				<value>23*LIN</value>
+				<dependentTests>
+					<dependentTest omitted="0">Diff_Amp:diff_req:1</dependentTest>
+				</dependentTests>
+			</var>
+			<var>LCS
+				<value>LIN</value>
+				<dependentTests>
+					<dependentTest omitted="0">Diff_Amp:diff_req:1</dependentTest>
+				</dependentTests>
+			</var>
+			<var>WCS
+				<value>2*WIN</value>
+				<dependentTests>
+					<dependentTest omitted="0">Diff_Amp:diff_req:1</dependentTest>
+				</dependentTests>
+			</var>
+		</vars>
+		<overwritehistoryname>Interactive.0</overwritehistoryname>
+		<plottingoptions>
+			<plottingoption>plottype
+				<value>None</value>
+			</plottingoption>
+			<plottingoption>usewaveformtemplate
+				<value>no</value>
+			</plottingoption>
+			<plottingoption>waveformtemplate
+				<value>                            </value>
+			</plottingoption>
+		</plottingoptions>
+	</active>
+	<history>History
+		<historyentry assemblerOrExplorer="adexl" roOrView="view">Interactive.1
+			<checkpoint>
+				<corners>
+					<corner enabled="1">_default</corner>
+				</corners>
+				<extensions>
+					<extension>Parasitics
+						<callback>_parSetupDBExtensionCB</callback>
+						<iconvalue></iconvalue>
+						<icontype></icontype>
+					</extension>
+				</extensions>
+				<currentmode>Single Run, Sweeps and Corners</currentmode>
+				<overwritehistory>0</overwritehistory>
+				<tests>
+					<test>Diff_Amp:diff_req:1
+						<tool>ADE</tool>
+						<tooloptions>
+							<option>cell
+								<value>diff_req</value>
+							</option>
+							<option>lib
+								<value>Diff_Amp</value>
+							</option>
+							<option>sim
+								<value>spectre</value>
+							</option>
+							<option>view
+								<value>schematic</value>
+							</option>
+							<option>path
+								<value>$AXL_SETUPDB_DIR/test_states</value>
+							</option>
+							<option>state
+								<value>Diff_Amp:diff_req:1_none_Interactive.1</value>
+							</option>
+						</tooloptions>
+						<origoptions>
+							<option>cell
+								<value>diff_req</value>
+							</option>
+							<option>lib
+								<value>Diff_Amp</value>
+							</option>
+							<option>sim
+								<value>spectre</value>
+							</option>
+							<option>view
+								<value>schematic</value>
+							</option>
+						</origoptions>
+					</test>
+				</tests>
+				<vars>
+					<var>LIN
+						<value>1u</value>
+						<dependentTests>
+							<dependentTest omitted="0">Diff_Amp:diff_req:1</dependentTest>
+						</dependentTests>
+					</var>
+					<var>RD
+						<value>9k</value>
+						<dependentTests>
+							<dependentTest omitted="0">Diff_Amp:diff_req:1</dependentTest>
+						</dependentTests>
+					</var>
+					<var>WIN
+						<value>23*LIN</value>
+						<dependentTests>
+							<dependentTest omitted="0">Diff_Amp:diff_req:1</dependentTest>
+						</dependentTests>
+					</var>
+					<var>LCS
+						<value>LIN</value>
+						<dependentTests>
+							<dependentTest omitted="0">Diff_Amp:diff_req:1</dependentTest>
+						</dependentTests>
+					</var>
+					<var>WCS
+						<value>2*WIN</value>
+						<dependentTests>
+							<dependentTest omitted="0">Diff_Amp:diff_req:1</dependentTest>
+						</dependentTests>
+					</var>
+				</vars>
+				<overwritehistoryname>Interactive.0</overwritehistoryname>
+				<plottingoptions>
+					<plottingoption>plottype
+						<value>None</value>
+					</plottingoption>
+					<plottingoption>usewaveformtemplate
+						<value>no</value>
+					</plottingoption>
+					<plottingoption>waveformtemplate
+						<value>                            </value>
+					</plottingoption>
+				</plottingoptions>
+				<sortVariableValues>0</sortVariableValues>
+			</checkpoint>
+			<timestamp>Sun Jun 18 21:46:44 2023
+</timestamp>
+			<resultsname>/home/work/Diff_Amp/diff_req/adexl/results/data/Interactive.1.rdb</resultsname>
+			<simresults>$AXL_SETUPDB_DIR/results/data/Interactive.1.rdb</simresults>
+			<rawdatadelstrategy>SaveAll</rawdatadelstrategy>
+			<netlistdelstrategy>SaveAll</netlistdelstrategy>
+			<uselocalpsfdir>false</uselocalpsfdir>
+			<localpsfdir>/tmp/work-eda_work_214644806</localpsfdir>
+			<psfdir>/home/disk/simulation/SIM_IC61/Diff_Amp/diff_req/adexl/results/data/Interactive.1</psfdir>
+			<simdir>$AXL_PROJECT_DIR/Diff_Amp/diff_req/adexl/results/data/Interactive.1</simdir>
+			<gendatasheetplotsonsimulation>1</gendatasheetplotsonsimulation>
+			<runlog>/home/work/Diff_Amp/diff_req/adexl/results/data/Interactive.1.log</runlog>
+			<runlogfile>$AXL_SETUPDB_DIR/results/data/Interactive.1.log</runlogfile>
+			<schematicpoint></schematicpoint>
+			<test>all</test>
+		</historyentry>
+	</history>
+</setupdb>
